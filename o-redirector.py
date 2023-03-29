@@ -121,10 +121,6 @@ elif choice2==3:
 #************************************************************
 
 
-#a='https://www.shoppersstop.com/beauty/c-B10/rgerg/wrtwrtg?hkshs=dfe&dafds=df'
-#a="https://medium.com/m/global-identity-2?redirectUrl=https://www.google.com"
-#a=input(Fore.RED +Back.WHITE +"\nenter url:"+Back.RESET)
-
 #***************displaying available text files in directory******************
 import glob
 print("\nList of All text Files in Current Directory:\n")
