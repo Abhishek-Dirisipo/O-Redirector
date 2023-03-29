@@ -20,6 +20,7 @@ print(banner)
 
 
 #***** main function ***************************************
+value=''
 def main_fun(target,i):
     print(Fore.BLUE +"______________")
     print("phase 2 -",i,"\n")
@@ -55,7 +56,7 @@ def main_fun(target,i):
                     print(Fore.YELLOW +"current url -->",Fore.MAGENTA +req.url[:90]+"...",Fore.YELLOW+str(req.history))
                 if 'google' in str(b[0]):
                     print(Fore.RED +"______*_*_*_*_____")
-                    print(Fore.RED +"[*]!Open Redirect found!\n",Fore.RED +'\n[*]parameter--> '+Fore.CYAN+i,Fore.RED +'\n[*]original url with payload--> '+Fore.CYAN+target.replace(parameter,i),Fore.RED +'\n[*]redirected to--> '+Fore.CYAN+b[0])
+                    print(Fore.RED +"![*]Open Redirect found!\n",Fore.RED +'\n[*]parameter--> '+Fore.CYAN+i,Fore.RED +'\n[*]original url with payload--> '+Fore.CYAN+target.replace(parameter,i),Fore.RED +'\n[*]redirected to--> '+Fore.CYAN+b[0])
                     print(Fore.RED +"______*_*_*_*_____")
                     with open('xsslogabhi/O-Redirector-results.txt','a') as f1:
                         f1.write('\nORIGINAL:-> \t\t'+target+'\nREDIRECTED TO:->\t\t'+req.url+str(req.history)+"\n")
@@ -120,6 +121,10 @@ elif choice2==3:
     values=values3
 #************************************************************
 
+
+#a='https://www.shoppersstop.com/beauty/c-B10/rgerg/wrtwrtg?hkshs=dfe&dafds=df'
+#a="https://medium.com/m/global-identity-2?redirectUrl=https://www.google.com"
+#a=input(Fore.RED +Back.WHITE +"\nenter url:"+Back.RESET)
 
 #***************displaying available text files in directory******************
 import glob
