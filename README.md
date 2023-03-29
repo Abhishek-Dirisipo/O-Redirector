@@ -4,6 +4,7 @@
    -> click on "view code" ^ located above to access the directory content or clone the tool to use it .
    
                     Initial Things:
+                    
     [*] paste a "text file" consisting of urls in the O-Redirector directory
 
     [*]check "xsslogabhi" directory ( it located at the place where the tool also located ) and check for logs : 
