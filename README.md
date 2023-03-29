@@ -1,7 +1,7 @@
 # O-Redirector
  an automated tool to find open redirection ! still in development 
  
-   -> click on "view code" ^ located above to access the directory content and clone it
+   -> click on "view code" ^ located above to access the directory content or clone the tool to use it .
 
 1. check xsslogabhi directory ( it is the place where the tool located ) and check for logs  : )
 2. "O-Redirector-30x.txt" logs consists of all redirection logs , you can manually check for redirection if tool fails to identify  .
