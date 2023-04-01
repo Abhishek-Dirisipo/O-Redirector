@@ -1,4 +1,8 @@
 # O-Redirector
+
+![Screenshot 2023-04-01 at 11 24 22 AM](https://user-images.githubusercontent.com/122773950/229268348-0079fa2d-ce75-49be-91b4-768591be9a27.png)
+
+
  an automated tool to find open redirection ! still in development
  
    -> click on "view code" ^ located above to access the directory content or clone the tool to use it .
