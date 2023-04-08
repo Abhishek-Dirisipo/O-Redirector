@@ -17,3 +17,9 @@
 
 Tip : press 'livemode' instead of filename when asking for files ,it will activate the livemode operation ! ( individual url check)
 
+                     Usage in cmd/terminal:
+                     
+    [*]  cd O-Redirector
+    
+    [*]  python3 o-redirector.py
+    -> Then select your options
